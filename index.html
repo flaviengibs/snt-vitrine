@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concessionnaire Auto SNT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="menu-container">
+        <button id="home-button">Accueil</button>
+        <div class="menu-item">
+            <label for="marque-select">Marque</label>
+            <select id="marque-select">
+                <option value="">Toutes</option>
+            </select>
+        </div>
+        <div class="menu-item">
+            <label for="type-select">Type</label>
+            <select id="type-select">
+                <option value="">Tous</option>
+            </select>
+        </div>
+        <div class="menu-item">
+            <label for="modele-select">Modèle</label>
+            <select id="modele-select" disabled>
+                <option value="">Tous</option>
+            </select>
+        </div>
+        <div class="menu-item">
+            <label for="prix-select">Prix max</label>
+            <select id="prix-select">
+                <option value="">Tout</option>
+            </select>
+        </div>
+        <button id="search-button">Rechercher</button>
+    </header>
+
+    <main id="galerie-container"></main>
+
+    <script src="script.js"></script>
+</body>
+</html>

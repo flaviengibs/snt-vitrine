@@ -113,6 +113,15 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
+.card-img {
+    width: 100%;
+    height: 180px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Recadre l'image pour couvrir la zone sans la déformer */
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* Si tu veux garder le style du placeholder au cas où une image manquerait */
 .card-image {
     width: 100%;
     height: 180px;
